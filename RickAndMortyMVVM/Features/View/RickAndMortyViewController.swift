@@ -88,8 +88,6 @@ extension RickAndMortyViewController: UITableViewDataSource, UITableViewDelegate
         cell.saveModel(model: results[indexPath.row])
         return cell
     }
-    
-    
 }
 
 extension RickAndMortyViewController {
